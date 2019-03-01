@@ -1,7 +1,6 @@
 class CreateUsers < ActiveRecord::Migration[5.1]
-  def up
-  end
-  
-  def down
+  def change
+    create_table :users do |t|
+    end
   end
 end
